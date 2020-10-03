@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<pre>
+		Note lý thuyết
+		- thẻ form là biểu mẫu trong html
+		- trong thẻ form có 3 thuộc tính html quan trọng
+		- thuộc tính là gì? thuộc tính bổ sung ý nghĩa tính chất đặc điểm cho 1 thẻ html
+		cú pháp : ten_thuoc_tinh="giá trị của thuộc tính"
+		-thẻ form có thuộc tính name là tên của form
+		-thuộc tính method là pthuc gửi dữ liệu của form
+		thuộc tính action chính là đích đến của form
+		thẻ label là thẻ nhãn trong 1 form
+		thẻ input có type="text" là kiểu của ô input
+		thẻ input có value=""
+		email có type là email
+
+	</pre>
+	<h1>Tiki form</h1>
+	<form name="tiki" method="post" action="">
+		<p>
+			<label>Họ tên</label>
+			<input type="text" name="hoten"value="" placeholder="Nhập họ tên">
+		</p>
+		<p>
+			<label>SĐT</label>
+			<input type="text" name="sodienthoai"value="" placeholder="Nhập SĐT">
+			<button>Gửi mã xác thực</button>
+		</p>
+		<p>
+			<label>Mã xác thực</label>
+			<input type="text" name="maxacthuc"value="" placeholder="Nhập mã xác thực">
+		</p>
+		<p>
+			<label>Email</label>
+			<input type="email" name="diachiemail"value="" placeholder="Nhập email">
+		</p>
+		<p>
+			<label>Mật khẩu</label>
+			<input type="password" name="matkhau" value="" placeholder="Nhập mật khẩu">
+		</p>
+		<p>
+			<label>Giới tính</label>
+			<input type="radio" name="gioitinh"value="1">Nam
+			<input type="radio" name="gioitinh"value="0">Nữ
+		</p>
+		<p>
+			<label>Ngày tháng năm sinh</label>
+			<select name="thang">
+				<option value="">Chọn tháng</option>
+				<option value="1">tháng 1</option>
+				<option value="2">tháng 2</option>
+				<option value="3">tháng 3</option>
+				<option value="4">tháng 4</option>
+				<option value="5">tháng 5</option>
+				<option value="6">tháng 6</option>
+				<option value="7">tháng 7</option>
+				<option value="8">tháng 8</option>
+				<option value="9">tháng 9</option>
+				<option value="10">tháng 10</option>
+				<option value="11">tháng 11</option>
+				<option value="12">tháng 12</option>
+			</select>
+			<select name="ngay">
+				<option value="">Chọn ngày</option>
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+				<option value="6"> 6</option>
+				<option value="7">7</option>
+				<option value="8"> 8</option>
+				<option value="9">9</option>
+				<option value="10">10</option>
+				<option value="11">11</option>
+				<option value="12">12</option>
+			</select>
+		</p>
+		<p>
+			<input type="checkbox" name="nhapthongtin"value="1">
+			Nhận các thông tin và chương trình khuyến mãi tiki qua email
+		</p>
+		<p>
+			<input type="submit" name="submit" value="Tạo tài khoản">
+		</p>
+	</form>
+	<div>
+		<img src="https://frontend.tikicdn.com/_desktop-next/static/img/graphic-map.png">
+	</div>
+</body>
+</html>
